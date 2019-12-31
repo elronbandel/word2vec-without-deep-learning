@@ -1,4 +1,4 @@
-
+#precision
 
 def precision(retrieved, relevant):
     return len(set(retrieved).intersection(relevant)) / len(retrieved)
