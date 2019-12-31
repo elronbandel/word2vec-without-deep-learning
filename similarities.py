@@ -11,8 +11,8 @@ WORDS_THRESHOLD = 100
 ATTS_THRESHOLD = 75
 CONTEXTS_THRESHOLD = 100
 
-tiny_sample_file = 'data/wikipedia.tinysample.trees.lemmatized'
-sample_file = 'data/wikipedia.sample.trees.lemmatized'
+tiny_sample_file = 'wikipedia.tinysample.trees.lemmatized'
+sample_file = 'wikipedia.sample.trees.lemmatized'
 
 Node = NamedTuple('Node', [('id', int), ('lemma', str), ('cpostag', str), ('head', int), ('deprel', str)])
 NodeIndexes = [0, 2, 3, 6, 7]
